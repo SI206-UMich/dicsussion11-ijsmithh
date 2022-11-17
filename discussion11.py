@@ -39,6 +39,9 @@ def create_species_table(cur, conn):
 # TASK 1
 # CREATE TABLE FOR PATIENTS IN DATABASE
 def create_patients_table(cur, conn):
+    for item in cur:
+        create_patients_table
+        
     pass
 
 
